@@ -1,0 +1,11 @@
+{
+  "announcements": [
+    {
+      "id": "example-notice-001",
+      "enabled": false,
+      "title": "Example Service Announcement",
+      "message": "Replace this text with your announcement, then enable it when ready.",
+      "expiresAt": null
+    }
+  ]
+}
