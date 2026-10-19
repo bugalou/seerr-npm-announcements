@@ -178,7 +178,7 @@ restart. Already open pages do not poll for changes; in-app navigation may not
 reload the script. Editing the Advanced configuration requires saving it in
 NPM. To roll back, restore the previous Advanced text and remove the test data.
 
-## Using the Shell Manager
+## Using the Shell Announcement Manager
 
 Run on the Docker host, not inside the NPM container. Dependencies can be
 installed using your Linux distribution's package manager; for example, Debian
@@ -220,7 +220,7 @@ symlinks before writing, so it preserves an existing symlink and locks next to
 the canonical target file. The target must also be reachable inside NPM's
 mounts. No shared browser/server `.env` is needed or served.
 
-## Building Your Own Manager
+## Building Your Own Announcement Manager
 
 Any trusted local tool can write the JSON; the Bash manager is optional. The
 browser only reads it and does not use a management API.
