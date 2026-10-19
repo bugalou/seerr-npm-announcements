@@ -47,7 +47,7 @@ inject the script into uncompressed HTML responses.
 
 See also the [official Seerr reverse proxy documentation](https://docs.seerr.dev/extending-seerr/reverse-proxy).
 
-## 1. Check the Docker Mount
+## 1. Check the NPM Docker Mount
 
 A typical existing Compose service contains:
 
